@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: antiquewhite;
+}
+.container{
+  background-color: white;
+  margin-top: 23px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px grey;
+}
 .fa{
   cursor: pointer;
 }
@@ -9,6 +18,37 @@
 }
 .fa-backward, .fa-forward{
   font-size: 40px;
+}
+.fa-backward{
+  margin-right: -60%;
+}
+.fa-forward{
+  margin-left: -60%;
+}
+.track-seeker{
+  width: 100%;
+}
+.music-vol{
+  /* transform: rotate(270deg); */
+  width: 80%;
+}
+.fa-volume-down{
+  margin-right: -160%; 
+}
+.fa-volume-up{
+  margin-left: -160%; 
+}
+.cover-image{
+  border-radius: 20px;
+  /* box-shadow: 0 5px 15px black; */
+
+}
+.music-artists{
+  font-size: medium;
+}
+.music-title{
+  font-size: x-large;
+  font-weight: bold;
 }
 /* .cover-image{
   align-items: center;
